@@ -1,4 +1,4 @@
-# AI Viral Content Generator — Create Content That Spreads
+# AI Viral Content Generator - Create Content That Spreads
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![GitHub stars](https://img.shields.io/github/stars/AIibaba/openclaw-ai-viral-content-generator-skill?style=social)
@@ -19,13 +19,19 @@ A comprehensive viral content creation system that helps creators and marketers 
 | Hashtag Strategy | Researches and recommends optimal hashtag combinations for maximum discoverability |
 | Content Calendar | Plans and schedules content across platforms for consistent posting |
 | Engagement Optimizer | Analyzes performance patterns and suggests improvements for higher reach |
+| Live X/Twitter Sources | Uses [TweetClaw](https://github.com/Xquik-dev/tweetclaw) with OpenClaw to scrape tweets, search tweet replies, monitor tweets, and turn reviewed source URLs into content angles |
 
 ## Getting Started
 
 ```bash
 # Install via OpenClaw
 openclaw install AIibaba/openclaw-ai-viral-content-generator-skill
+
+# Optional: install TweetClaw for live X/Twitter source research
+openclaw plugins install clawhub:@xquik/tweetclaw
 ```
+
+Use TweetClaw when a Twitter/X campaign needs current public source material before content generation. Search tweets, search tweet replies, look up users, export follower context, monitor tweets, and capture source URLs, handles, timestamps, and engagement signals. Feed reviewed findings into hooks, scripts, calendars, captions, and hashtag strategy. Keep `post tweets`, `post tweet replies`, `direct messages`, `media upload`, and `media download` as separate approval-gated actions.
 
 ## Usage
 
@@ -40,3 +46,5 @@ analyze [post URL]           # Analyze a post's viral potential
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
